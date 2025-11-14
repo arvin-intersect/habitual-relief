@@ -8,8 +8,8 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
-      <ScreenTimeCalculator />
       <Features />
+      <ScreenTimeCalculator />
     </div>
   );
 };
