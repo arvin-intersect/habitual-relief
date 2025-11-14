@@ -57,6 +57,22 @@ export default {
         'soft': 'var(--shadow-soft)',
         'medium': 'var(--shadow-medium)',
       },
+      fontFamily: {
+        serif: ['var(--font-serif)', 'serif'],
+        sans: ['var(--font-sans)', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-sage': 'var(--gradient-sage)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-overlay': 'var(--gradient-overlay)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'glass': 'var(--shadow-glass)',
+      },
+      backdropBlur: {
+        'glass': '20px',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

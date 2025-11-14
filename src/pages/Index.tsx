@@ -1,10 +1,12 @@
+import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import ScreenTimeCalculator from "@/components/ScreenTimeCalculator";
 import Features from "@/components/Features";
+import ScreenTimeCalculator from "@/components/ScreenTimeCalculator";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
+      <Navigation />
       <Hero />
       <Features />
       <ScreenTimeCalculator />
