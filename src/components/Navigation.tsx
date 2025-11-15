@@ -8,7 +8,7 @@ const Navigation = () => {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-foreground" />
             <span className="font-sans text-foreground font-light tracking-wide">
-              clear—path
+            Flow Habits AI
             </span>
           </div>
           
