@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
 export default {
@@ -48,27 +49,14 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
       },
-      backgroundImage: {
-        'gradient-primary': 'var(--gradient-primary)',
-        'gradient-secondary': 'var(--gradient-secondary)',
-        'gradient-hero': 'var(--gradient-hero)',
-      },
       boxShadow: {
         'soft': 'var(--shadow-soft)',
         'medium': 'var(--shadow-medium)',
+        'glass': 'var(--shadow-glass)',
       },
       fontFamily: {
         serif: ['var(--font-serif)', 'serif'],
         sans: ['var(--font-sans)', 'sans-serif'],
-      },
-      backgroundImage: {
-        'gradient-sage': 'var(--gradient-sage)',
-        'gradient-hero': 'var(--gradient-hero)',
-        'gradient-overlay': 'var(--gradient-overlay)',
-      },
-      boxShadow: {
-        'soft': 'var(--shadow-soft)',
-        'glass': 'var(--shadow-glass)',
       },
       backdropBlur: {
         'glass': '20px',
@@ -99,6 +87,15 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      // Consolidate and add the new background image here
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-sage': 'var(--gradient-sage)',
+        'gradient-overlay': 'var(--gradient-overlay)',
+        'hero-background-image': 'url("/images/hero-background.jpg")', // NEW BACKGROUND IMAGE
       },
     },
   },
