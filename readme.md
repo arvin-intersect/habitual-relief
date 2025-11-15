@@ -347,3 +347,4 @@ The frontend application will typically open in your browser at `http://localhos
 - **Progress Visualizations**: Add charts and graphs to the Journal for a visual representation of long-term habit improvement.
 - **Notifications & Reminders**: Integrate push notifications to remind users of tasks or insights.
 
+All pieces of The code is publicy available - https://github.com/arvin-intersect/habitual-relief
