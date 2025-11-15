@@ -1,3 +1,4 @@
+// src/pages/Index.tsx
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -8,8 +9,8 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
-      <Features />
-      <ScreenTimeCalculator />
+      <ScreenTimeCalculator /> {/* Moved to second position */}
+      <Features /> {/* Moved to third position */}
     </div>
   );
 };
